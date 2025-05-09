@@ -22,6 +22,18 @@ body {
     font-weight: bold;
     color: #6B4226;
   }
+
+.brand-name,
+  .navbar-light .navbar-brand:hover {
+    /* font-family: "Brush Script MT"; */
+    /* margin-bottom: 3px; */
+    font-family: "Lovely Home";
+    font-size: 50px;
+    font-weight: bold;
+    color: #E8DAB2;
+  }
+
+
   @media only screen and (max-width: 764px) {
     .brand-name,
     .navbar-light .navbar-brand {
