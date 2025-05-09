@@ -1,4 +1,5 @@
 body {
+  background-color: #C4B6A6;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     margin: 0;
@@ -23,7 +24,7 @@ body {
     font-family: "Lovely Home";
     font-size: 50px;
     font-weight: bold;
-    color: #351458;
+    color: #6B4226;
   }
   @media only screen and (max-width: 764px) {
     .brand-name,
@@ -31,8 +32,11 @@ body {
       font-family: "Lovely Home";
       font-size: 40px;
       font-weight: bold;
-      color: #351458;
+      color: #6B4226;
     }
+  }
+  h1{
+    color: #6B4226;
   }
   
   .headerachor {
@@ -42,7 +46,7 @@ body {
   }
   
   .headerachor:hover {
-    background-color: #f1f1f1;
+    background-color: #E8DAB2;
   }
   
   #Section1 {
@@ -103,17 +107,17 @@ body {
     content: "";
     width: 4px;
     height: calc(100% - 150px);
-    background: #6f67ff;
+    background: #6B4226;
     left: 14px;
     top: 5px;
     border-radius: 4px;
   }
   
   .timeline-month {
-    color: black;
+    color: #C4B6A6;
     position: relative;
     padding: 4px 15px 4px 35px;
-    background-color: #a6a1ff;
+    background-color: #A45A3D;
     display: inline-block;
     width: auto;
     border-radius: 40px;
@@ -142,7 +146,7 @@ body {
     content: "";
     width: 20px;
     height: 20px;
-    background: #362cff;
+    background: #D9BF77;
     border-radius: 100%;
     border: 1px solid #17191b;
     left: 5px;
@@ -158,12 +162,12 @@ body {
   .timeline-date {
     margin-bottom: 15px;
     padding: 2px 15px;
-    background: #a6a1ff;
+    background: #A45A3D;
     position: relative;
     display: inline-block;
     border-radius: 20px;
     border: 1px solid #17191b;
-    color: black;
+    color: #C4B6A6;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   }
   .timeline-section:before {
@@ -171,7 +175,7 @@ body {
     position: absolute;
     width: 30px;
     height: 1px;
-    background-color: #362cff;
+    background-color: #b77223;
     top: 12px;
     left: 20px;
   }
@@ -181,7 +185,7 @@ body {
     position: absolute;
     width: 10px;
     height: 10px;
-    background: #362cff;
+    background: #6B4226;
     top: 7px;
     left: 11px;
     border: 1px solid #17191b;
@@ -190,8 +194,8 @@ body {
   
   .timeline-box {
     position: relative;
-    color: black;
-    background-color: #a6a1ff;
+    color: #6B4226;
+    background-color: #E8DAB2;
     border-radius: 15px;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -227,7 +231,7 @@ body {
   
   .box-item {
     margin-bottom: 5px;
-    color: #868e96;
+    color: #A45A3D;
     font-weight: 400;
   }
   
@@ -239,11 +243,14 @@ body {
   }
   
   .box-shadow {
-    box-shadow: 5px 5px 5px #d9dbdf;
+    box-shadow: 5px 5px 5px 2px  #A45A3D;
   }
   
   footer {
     padding-top: 2%;
     color: #868e96;
     text-align: center;
+  }
+  .card-text{
+    color :  #A45A3D;
   }
